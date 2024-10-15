@@ -1,0 +1,1719 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Data.meta
+    - Assets/Data/CharacterPopupElements.asset
+    - Assets/Data/CharacterPopupElements.asset.meta
+    - Assets/Data/DataInstaller.asset
+    - Assets/Data/DataInstaller.asset.meta
+    - Assets/Fonts.meta
+    - Assets/Fonts/OpenSans-Bold SDF.asset
+    - Assets/Fonts/OpenSans-Bold SDF.asset.meta
+    - Assets/Fonts/OpenSans-Bold.ttf
+    - Assets/Fonts/OpenSans-Bold.ttf.meta
+    - Assets/Fonts/OpenSans-Light SDF.asset
+    - Assets/Fonts/OpenSans-Light SDF.asset.meta
+    - Assets/Fonts/OpenSans-Light.ttf
+    - Assets/Fonts/OpenSans-Light.ttf.meta
+    - Assets/Fonts/OpenSans-Medium SDF.asset
+    - Assets/Fonts/OpenSans-Medium SDF.asset.meta
+    - Assets/Fonts/OpenSans-Medium.ttf
+    - Assets/Fonts/OpenSans-Medium.ttf.meta
+    - Assets/Fonts/OpenSans-Regular SDF.asset
+    - Assets/Fonts/OpenSans-Regular SDF.asset.meta
+    - Assets/Fonts/OpenSans-Regular.ttf
+    - Assets/Fonts/OpenSans-Regular.ttf.meta
+    - Assets/Fonts/OpenSans-SemiBold SDF.asset
+    - Assets/Fonts/OpenSans-SemiBold SDF.asset.meta
+    - Assets/Fonts/OpenSans-SemiBold.ttf
+    - Assets/Fonts/OpenSans-SemiBold.ttf.meta
+    - Assets/Plugins.meta
+    - Assets/Plugins/DOTween/DOTween.XML
+    - Assets/Plugins/DOTween/DOTween.XML.meta
+    - Assets/Plugins/DOTween/DOTween.dll
+    - Assets/Plugins/DOTween/DOTween.dll.meta
+    - Assets/Plugins/DOTween/Editor.meta
+    - Assets/Plugins/DOTween/Editor/DOTweenEditor.XML
+    - Assets/Plugins/DOTween/Editor/DOTweenEditor.XML.meta
+    - Assets/Plugins/DOTween/Editor/DOTweenEditor.dll
+    - Assets/Plugins/DOTween/Editor/DOTweenEditor.dll.meta
+    - Assets/Plugins/DOTween/Editor/Imgs.meta
+    - Assets/Plugins/DOTween/Editor/Imgs/DOTweenIcon.png
+    - Assets/Plugins/DOTween/Editor/Imgs/DOTweenIcon.png.meta
+    - Assets/Plugins/DOTween/Editor/Imgs/DOTweenMiniIcon.png
+    - Assets/Plugins/DOTween/Editor/Imgs/DOTweenMiniIcon.png.meta
+    - Assets/Plugins/DOTween/Editor/Imgs/Footer.png
+    - Assets/Plugins/DOTween/Editor/Imgs/Footer.png.meta
+    - Assets/Plugins/DOTween/Editor/Imgs/Footer_dark.png
+    - Assets/Plugins/DOTween/Editor/Imgs/Footer_dark.png.meta
+    - Assets/Plugins/DOTween/Modules.meta
+    - Assets/Plugins/DOTween/Modules/DOTweenModuleAudio.cs
+    - Assets/Plugins/DOTween/Modules/DOTweenModuleAudio.cs.meta
+    - Assets/Plugins/DOTween/Modules/DOTweenModuleEPOOutline.cs
+    - Assets/Plugins/DOTween/Modules/DOTweenModuleEPOOutline.cs.meta
+    - Assets/Plugins/DOTween/Modules/DOTweenModulePhysics.cs
+    - Assets/Plugins/DOTween/Modules/DOTweenModulePhysics.cs.meta
+    - Assets/Plugins/DOTween/Modules/DOTweenModulePhysics2D.cs
+    - Assets/Plugins/DOTween/Modules/DOTweenModulePhysics2D.cs.meta
+    - Assets/Plugins/DOTween/Modules/DOTweenModuleSprite.cs
+    - Assets/Plugins/DOTween/Modules/DOTweenModuleSprite.cs.meta
+    - Assets/Plugins/DOTween/Modules/DOTweenModuleUI.cs
+    - Assets/Plugins/DOTween/Modules/DOTweenModuleUI.cs.meta
+    - Assets/Plugins/DOTween/Modules/DOTweenModuleUtils.cs
+    - Assets/Plugins/DOTween/Modules/DOTweenModuleUtils.cs.meta
+    - Assets/Plugins/DOTween/Modules/Tween.asmdef
+    - Assets/Plugins/DOTween/Modules/Tween.asmdef.meta
+    - Assets/Plugins/DOTween/readme.txt
+    - Assets/Plugins/DOTween/readme.txt.meta
+    - Assets/Plugins/Sirenix.meta
+    - Assets/Plugins/Sirenix/Assemblies.meta
+    - Assets/Plugins/Sirenix/Assemblies/NoEditor.meta
+    - Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.dll
+    - Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.dll
+    - Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor.meta
+    - Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.dll
+    - Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll
+    - Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.xml
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.xml.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.xml
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.xml.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.xml
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.xml.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.xml
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.xml.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.xml
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.xml.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll.meta
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.xml
+    - Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.xml.meta
+    - Assets/Plugins/Sirenix/Assemblies/link.xml
+    - Assets/Plugins/Sirenix/Assemblies/link.xml.meta
+    - Assets/Plugins/Sirenix/Demos.meta
+    - Assets/Plugins/Sirenix/Odin Inspector.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/Bootstrap License.txt
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/Bootstrap License.txt.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/OdinPathLookup.asset
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/OdinPathLookup.asset.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/SdfIconAtlas.png
+    - Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/SdfIconAtlas.png.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Config.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Editor.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/AOTGenerationConfig.asset
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/AOTGenerationConfig.asset.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/GeneralDrawerConfig.asset
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/GeneralDrawerConfig.asset.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/InspectorConfig.asset
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/InspectorConfig.asset.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Resources.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix/GlobalSerializationConfig.asset
+    - Assets/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix/GlobalSerializationConfig.asset.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Entities.data
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Entities.data.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Localization.data
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Localization.data.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics.data
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics.data.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/MathematicsDrawers.cs
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/MathematicsDrawers.cs.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/Sirenix.OdinInspector.Modules.UnityMathematics.asmdef
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/Sirenix.OdinInspector.Modules.UnityMathematics.asmdef.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/manifest.txt
+    - Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/manifest.txt.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/AssemblyImportSettingsAutomation.cs
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/AssemblyImportSettingsAutomation.cs.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/BuildAOTAutomation.cs
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/BuildAOTAutomation.cs.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/EnsureOdinInspectorDefine.cs
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/EnsureOdinInspectorDefine.cs.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/SyncListDrawer.cs
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/SyncListDrawer.cs.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/SyncVarAttributeDrawer.cs
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/SyncVarAttributeDrawer.cs.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/VectorIntDrawers.cs
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/VectorIntDrawers.cs.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/VectorIntPropertyResolvers.cs
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/VectorIntPropertyResolvers.cs.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/SerializedNetworkBehaviour.cs
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/SerializedNetworkBehaviour.cs.meta
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/VectorIntFormatters.cs
+    - Assets/Plugins/Sirenix/Odin Inspector/Scripts/VectorIntFormatters.cs.meta
+    - Assets/Plugins/Sirenix/Readme.txt
+    - Assets/Plugins/Sirenix/Readme.txt.meta
+    - Assets/Plugins/UniRx.meta
+    - Assets/Plugins/UniRx/Scripts/Asynchronous.meta
+    - Assets/Plugins/UniRx/Scripts/Asynchronous/WebRequestExtensions.cs
+    - Assets/Plugins/UniRx/Scripts/Asynchronous/WebRequestExtensions.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Disposables/BooleanDisposable.cs
+    - Assets/Plugins/UniRx/Scripts/Disposables/BooleanDisposable.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Disposables/CancellationDisposable.cs
+    - Assets/Plugins/UniRx/Scripts/Disposables/CancellationDisposable.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Disposables/Disposable.cs
+    - Assets/Plugins/UniRx/Scripts/Disposables/Disposable.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Disposables/DisposableExtensions.cs
+    - Assets/Plugins/UniRx/Scripts/Disposables/DisposableExtensions.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Disposables/ICancelable.cs
+    - Assets/Plugins/UniRx/Scripts/Disposables/ICancelable.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Disposables/MultipleAssignmentDisposable.cs
+    - Assets/Plugins/UniRx/Scripts/Disposables/MultipleAssignmentDisposable.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Disposables/RefCountDisposable.cs
+    - Assets/Plugins/UniRx/Scripts/Disposables/RefCountDisposable.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Disposables/ScheduledDisposable.cs
+    - Assets/Plugins/UniRx/Scripts/Disposables/ScheduledDisposable.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Disposables/SerialDisposable.cs
+    - Assets/Plugins/UniRx/Scripts/Disposables/SerialDisposable.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Disposables/SingleAssignmentDisposable.cs
+    - Assets/Plugins/UniRx/Scripts/Disposables/SingleAssignmentDisposable.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Disposables/StableCompositeDisposable.cs
+    - Assets/Plugins/UniRx/Scripts/Disposables/StableCompositeDisposable.cs.meta
+    - Assets/Plugins/UniRx/Scripts/EventPattern.cs
+    - Assets/Plugins/UniRx/Scripts/EventPattern.cs.meta
+    - Assets/Plugins/UniRx/Scripts/InternalUtil.meta
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/AscynLock.cs
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/AscynLock.cs.meta
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/CancellableTaskCompletionSource.cs
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/CancellableTaskCompletionSource.cs.meta
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/ExceptionExtensions.cs
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/ExceptionExtensions.cs.meta
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/ImmutableList.cs
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/ImmutableList.cs.meta
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/ListObserver.cs
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/ListObserver.cs.meta
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/PriorityQueue.cs
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/PriorityQueue.cs.meta
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/PromiseHelper.cs
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/PromiseHelper.cs.meta
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/ScheduledItem.cs
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/ScheduledItem.cs.meta
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/ThreadSafeQueueWorker.cs
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/ThreadSafeQueueWorker.cs.meta
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/UnityEqualityComparer.cs
+    - Assets/Plugins/UniRx/Scripts/InternalUtil/UnityEqualityComparer.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Notification.cs
+    - Assets/Plugins/UniRx/Scripts/Notification.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Notifiers.meta
+    - Assets/Plugins/UniRx/Scripts/Notifiers/BooleanNotifier.cs
+    - Assets/Plugins/UniRx/Scripts/Notifiers/BooleanNotifier.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Notifiers/MessageBroker.cs
+    - Assets/Plugins/UniRx/Scripts/Notifiers/MessageBroker.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Notifiers/ScheduledNotifier.cs
+    - Assets/Plugins/UniRx/Scripts/Notifiers/ScheduledNotifier.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Observable.Awaiter.cs
+    - Assets/Plugins/UniRx/Scripts/Observable.Awaiter.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Observable.Binding.cs
+    - Assets/Plugins/UniRx/Scripts/Observable.Binding.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Observable.Blocking.cs
+    - Assets/Plugins/UniRx/Scripts/Observable.Blocking.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Observable.Concatenate.cs
+    - Assets/Plugins/UniRx/Scripts/Observable.Concatenate.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Observable.Concurrency.cs
+    - Assets/Plugins/UniRx/Scripts/Observable.Concurrency.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Observable.Conversions.cs
+    - Assets/Plugins/UniRx/Scripts/Observable.Conversions.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Observable.Creation.cs
+    - Assets/Plugins/UniRx/Scripts/Observable.Creation.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Observable.ErrorHandling.cs
+    - Assets/Plugins/UniRx/Scripts/Observable.ErrorHandling.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Observable.Events.cs
+    - Assets/Plugins/UniRx/Scripts/Observable.Events.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Observable.Joins.cs
+    - Assets/Plugins/UniRx/Scripts/Observable.Joins.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Observable.Paging.cs
+    - Assets/Plugins/UniRx/Scripts/Observable.Paging.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Observable.Time.cs
+    - Assets/Plugins/UniRx/Scripts/Observable.Time.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Observer.cs
+    - Assets/Plugins/UniRx/Scripts/Observer.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Aggregate.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Aggregate.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Amb.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Amb.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/AsObservable.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/AsObservable.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/AsSingleUnitObservable.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/AsSingleUnitObservable.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Cast.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Cast.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/CombineLatest.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/CombineLatest.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Concat.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Concat.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/ContinueWith.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/ContinueWith.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Create.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Create.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/DefaultIfEmpty.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/DefaultIfEmpty.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Delay.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Delay.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/DelaySubscription.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/DelaySubscription.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Distinct.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Distinct.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Do.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Do.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Empty.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Empty.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Finally.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Finally.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/First.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/First.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/ForEachAsync.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/ForEachAsync.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/FromEvent.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/GroupBy.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/IgnoreElements.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/IgnoreElements.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Last.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Last.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Materialize.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Materialize.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Merge.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Never.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Never.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/ObserveOn.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/ObserveOn.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/OfType.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/OfType.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/OperatorObservableBase.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/OperatorObservableBase.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/OperatorObserverBase.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/PairWise.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/PairWise.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/RefCount.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/RefCount.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Return.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Scan.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Scan.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Select.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Select.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/SelectWhere.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/SelectWhere.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Single.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Single.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Skip.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Skip.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/SkipWhile.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/SkipWhile.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Start.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Start.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/StartWith.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/SubscribeOn.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/SubscribeOn.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Switch.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Switch.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/SynchronizedObserver.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/SynchronizedObserver.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/TakeLast.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/TakeLast.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/TakeUntil.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/TakeUntil.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/TakeWhile.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/TakeWhile.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Throttle.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Throttle.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Throw.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Throw.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/TimeInterval.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/TimeInterval.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Timer.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Timer.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Timestamp.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Timestamp.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/ToArray.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/ToArray.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/ToList.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/ToList.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/ToObservable.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/ToObservable.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Wait.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Wait.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/WhenAll.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/WhenAll.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/WhereSelect.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/WhereSelect.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/WithLatestFrom.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/WithLatestFrom.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/Zip.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/Zip.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Operators/ZipLatest.cs
+    - Assets/Plugins/UniRx/Scripts/Operators/ZipLatest.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Pair.cs
+    - Assets/Plugins/UniRx/Scripts/Pair.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Schedulers.meta
+    - Assets/Plugins/UniRx/Scripts/Schedulers/CurrentThreadScheduler.cs
+    - Assets/Plugins/UniRx/Scripts/Schedulers/CurrentThreadScheduler.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Schedulers/IScheduler.cs
+    - Assets/Plugins/UniRx/Scripts/Schedulers/IScheduler.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Schedulers/ImmediateScheduler.cs
+    - Assets/Plugins/UniRx/Scripts/Schedulers/ImmediateScheduler.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Schedulers/Scheduler.cs
+    - Assets/Plugins/UniRx/Scripts/Schedulers/Scheduler.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Schedulers/ThreadPoolScheduler.cs
+    - Assets/Plugins/UniRx/Scripts/Schedulers/ThreadPoolScheduler.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Subjects/AsyncSubject.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Subjects/BehaviorSubject.cs
+    - Assets/Plugins/UniRx/Scripts/Subjects/BehaviorSubject.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Subjects/ConnectableObservable.cs
+    - Assets/Plugins/UniRx/Scripts/Subjects/ConnectableObservable.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Subjects/ISubject.cs
+    - Assets/Plugins/UniRx/Scripts/Subjects/ISubject.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Subjects/ReplaySubject.cs
+    - Assets/Plugins/UniRx/Scripts/Subjects/ReplaySubject.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Subjects/Subject.cs
+    - Assets/Plugins/UniRx/Scripts/Subjects/Subject.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Subjects/SubjectExtensions.cs
+    - Assets/Plugins/UniRx/Scripts/Subjects/SubjectExtensions.cs.meta
+    - Assets/Plugins/UniRx/Scripts/System.meta
+    - Assets/Plugins/UniRx/Scripts/System/IObservable.cs
+    - Assets/Plugins/UniRx/Scripts/System/IObservable.cs.meta
+    - Assets/Plugins/UniRx/Scripts/System/IObserver.cs
+    - Assets/Plugins/UniRx/Scripts/System/IObserver.cs.meta
+    - Assets/Plugins/UniRx/Scripts/System/IOptimizedObservable.cs
+    - Assets/Plugins/UniRx/Scripts/System/IOptimizedObservable.cs.meta
+    - Assets/Plugins/UniRx/Scripts/System/IProgress.cs
+    - Assets/Plugins/UniRx/Scripts/System/IProgress.cs.meta
+    - Assets/Plugins/UniRx/Scripts/System/Tuple.cs
+    - Assets/Plugins/UniRx/Scripts/System/Tuple.cs.meta
+    - Assets/Plugins/UniRx/Scripts/System/Unit.cs
+    - Assets/Plugins/UniRx/Scripts/System/Unit.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Tasks.meta
+    - Assets/Plugins/UniRx/Scripts/Tasks/TaskObservableExtensions.cs
+    - Assets/Plugins/UniRx/Scripts/Tasks/TaskObservableExtensions.cs.meta
+    - Assets/Plugins/UniRx/Scripts/TimeInterval.cs
+    - Assets/Plugins/UniRx/Scripts/TimeInterval.cs.meta
+    - Assets/Plugins/UniRx/Scripts/Timestamped.cs
+    - Assets/Plugins/UniRx/Scripts/Timestamped.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UniRx.asmdef
+    - Assets/Plugins/UniRx/Scripts/UniRx.asmdef.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/AsyncOperationExtensions.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/AsyncOperationExtensions.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/CoroutineAsyncBridge.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/CoroutineAsyncBridge.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Diagnostics.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Diagnostics/LogEntryExtensions.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Diagnostics/LogEntryExtensions.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Diagnostics/ObservableDebugExtensions.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Diagnostics/ObservableLogger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Diagnostics/ObservableLogger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Diagnostics/UnityDebugSink.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Diagnostics/UnityDebugSink.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/FrameInterval.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/FrameInterval.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/LifetimeDisposableExtensions.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/LifetimeDisposableExtensions.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/MainThreadDispatcher.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/MainThreadDispatcher.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Observable.Unity.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Observable.Unity.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ObservableWWW.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ObservableWWW.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ObserveExtensions.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ObserveExtensions.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/BatchFrame.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/DelayFrame.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/DelayFrame.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/DelayFrameSubscription.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/DelayFrameSubscription.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/FrameInterval.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/FrameInterval.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/FrameTimeInterval.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/FrameTimeInterval.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/FromCoroutine.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/FromCoroutine.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/SubscribeOnMainThread.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/SubscribeOnMainThread.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/ThrottleFirstFrame.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/ThrottleFirstFrame.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/ThrottleFrame.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/ThrottleFrame.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ReactiveCollection.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ReactiveCollection.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ReactiveCommand.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ReactiveCommand.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ReactiveProperty.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ReactiveProperty.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ScenePlaybackDetector.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ScenePlaybackDetector.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Toolkit.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Toolkit/ObjectPool.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Toolkit/ObjectPool.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableBeginDragTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableBeginDragTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableCancelTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableCancelTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableCanvasGroupChangedTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableCollision2DTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableCollision2DTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableDeselectTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableDeselectTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableDestroyTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableDestroyTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableDragTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableDragTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableEnableTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableEnableTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableEndDragTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableFixedUpdateTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableInitializePotentialDragTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableInitializePotentialDragTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableJointTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableJointTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableLateUpdateTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableMouseTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableMouseTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableMoveTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableMoveTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableParticleTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableParticleTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservablePointerClickTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservablePointerClickTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservablePointerDownTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableSelectTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableSelectTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableStateMachineTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableStateMachineTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableSubmitTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableSubmitTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableTrigger2DTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableTrigger2DTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableTriggerBase.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableTriggerBase.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableTriggerExtensions.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableTriggerExtensions.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableTriggerTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableTriggerTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableUpdateSelectedTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableUpdateSelectedTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableUpdateTrigger.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableUpdateTrigger.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/UnityEventExtensions.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/UnityGraphicExtensions.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/UnityGraphicExtensions.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/UnityUIComponentExtensions.cs
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/UnityUIComponentExtensions.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityEngineBridge/YieldInstructionCache.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityWinRTBridge.meta
+    - Assets/Plugins/UniRx/Scripts/UnityWinRTBridge/Thread.cs
+    - Assets/Plugins/UniRx/Scripts/UnityWinRTBridge/Thread.cs.meta
+    - Assets/Plugins/UniRx/Scripts/UnityWinRTBridge/ThreadPoolScheduler_UnityWinRT.cs
+    - Assets/Plugins/UniRx/Scripts/UnityWinRTBridge/ThreadPoolScheduler_UnityWinRT.cs.meta
+    - Assets/Plugins/Zenject.meta
+    - Assets/Plugins/Zenject/LICENSE.txt
+    - Assets/Plugins/Zenject/LICENSE.txt.meta
+    - Assets/Plugins/Zenject/OptionalExtras.meta
+    - Assets/Plugins/Zenject/OptionalExtras/AutoMocking.zip
+    - Assets/Plugins/Zenject/OptionalExtras/AutoMocking.zip.meta
+    - Assets/Plugins/Zenject/OptionalExtras/AutoSubstitute.zip
+    - Assets/Plugins/Zenject/OptionalExtras/AutoSubstitute.zip.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestDiContainerMethods.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestDiContainerMethods/Foo.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestDiContainerMethods/Foo.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestDiContainerMethods/Foo2.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestDiContainerMethods/Foo2.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromComponentInHierarchyGameObjectContext.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromComponentInHierarchyGameObjectContext/Foo.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromComponentInHierarchyGameObjectContext/Foo.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromComponentInHierarchyGameObjectContext/FooInstaller.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromComponentInHierarchyGameObjectContext/FooInstaller.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromComponentInHierarchyGameObjectContext/Gorp.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromComponentInHierarchyGameObjectContext/Gorp.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromGameObjectInstaller.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromNewScriptableObjectResource/Bob.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromNewScriptableObjectResource/Bob.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefab/Bob.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefab/Bob.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefab/Norf2.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefab/Norf2.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefabInstaller.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefabResource/Norf2.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromPrefabResource/Norf2.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestFromSubContainerPrefabResource/Gorp.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Bindings/TestInstantiateCallback.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/PrefabFactory.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/PrefabFactory/Foo2.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/PrefabFactory/Foo2.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestBindFactory/Bar.asset
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestBindFactory/Bar.asset.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestBindFactory/Camera.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestBindFactory/Camera.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestBindFactory/Foo.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestBindFactory/Foo.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestBindFactory/FooSubContainer.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestBindFactory/FooSubContainer.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestBindFactory/TestTexture.png
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestBindFactory/TestTexture.png.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestBindFactoryFive.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestBindFactoryFive/Foo.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestBindFactoryFive/Foo.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestBindFactoryFive/FooSubContainer.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestBindFactoryFive/FooSubContainer.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestBindFactoryOne.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestGameObjectFactoryOne/Cube.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestGameObjectFactoryOne/Cube.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestGameObjectFactoryZero/Cube.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestGameObjectFactoryZero/Cube.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestPrefabFactory/Foo2.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/Resources/TestPrefabFactory/Foo2.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/TestBindFactory.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/TestBindFactory/Bar.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/TestBindFactoryFive.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/TestBindFactoryFive/Foo.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/TestBindFactoryFive/Foo.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/TestBindFactoryOne/Bar.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Factories/TestBindFactoryOne/Bar.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/Resources.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/Resources/TestMonoInstallers.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/Resources/TestMonoInstallers/BarInstaller.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/Resources/TestMonoInstallers/BarInstaller.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/Resources/TestMonoInstallers/FooInstaller.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/Resources/TestMonoInstallers/FooInstaller.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/Resources/TestScriptableObjectInstallers.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/Resources/TestScriptableObjectInstallers/BarInstaller.asset
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/Resources/TestScriptableObjectInstallers/BarInstaller.asset.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/Resources/TestScriptableObjectInstallers/QuxInstaller.asset
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/Resources/TestScriptableObjectInstallers/QuxInstaller.asset.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestInstallers.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestInstallers/FooInstaller.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestInstallers/FooInstaller.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestMonoInstallers.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestMonoInstallers/FooInstaller.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestMonoInstallers/FooInstaller.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestMonoInstallers/QuxInstaller.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestMonoInstallers/QuxInstaller.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestScriptableObjectInstallers/BarInstaller.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestScriptableObjectInstallers/BarInstaller.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestScriptableObjectInstallers/QuxInstaller.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Installers/TestScriptableObjectInstallers/QuxInstaller.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestAnimationStateBehaviourInject.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestAnimationStateBehaviourInject/AnimatorController.controller
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestAnimationStateBehaviourInject/AnimatorController.controller.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestAnimationStateBehaviourInject/Resources.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestAnimationStateBehaviourInject/Resources/TestAnimationStateBehaviourInject.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestAnimationStateBehaviourInject/Resources/TestAnimationStateBehaviourInject/Foo.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestAnimationStateBehaviourInject/Resources/TestAnimationStateBehaviourInject/Foo.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestAnimationStateBehaviourInject/StateBehaviour1.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestAnimationStateBehaviourInject/StateBehaviour1.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestZenAutoInjecter.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestZenAutoInjecter/Bar.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestZenAutoInjecter/Bar.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestZenAutoInjecter/Gorp.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestZenAutoInjecter/Gorp.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestZenAutoInjecter/Resources.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestZenAutoInjecter/Resources/TestZenAutoInjecter.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestZenAutoInjecter/Resources/TestZenAutoInjecter/QuxScene.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestZenAutoInjecter/Resources/TestZenAutoInjecter/QuxScene.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestZenAutoInjecter/Resources/TestZenAutoInjecter/QuxSearch.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Misc/TestZenAutoInjecter/Resources/TestZenAutoInjecter/QuxSearch.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestBindGameObject.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestBindGameObject/Cube.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestBindGameObject/Cube.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestDiContainerMethods.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestDiContainerMethods/Camera.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestDiContainerMethods/Camera.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestDiContainerMethods/Foo2.asset
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestDiContainerMethods/Foo2.asset.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestDiContainerMethods/Gorp2.asset
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestDiContainerMethods/Gorp2.asset.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromNewScriptableObjectResource/Foo.asset
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromNewScriptableObjectResource/Foo.asset.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromPrefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromPrefab/Foo.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromPrefab/Foo.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromPrefab/Gorp.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromPrefab/Gorp.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromPrefab/Norf.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromPrefab/Norf.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromPrefabResource.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromPrefabResource/Gorp.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromPrefabResource/Gorp.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromPrefabResource/GorpAndQux.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromPrefabResource/GorpAndQux.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromPrefabResource/JimAndBob.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromPrefabResource/JimAndBob.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromResource.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromResource/TestTexture.png
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromResource/TestTexture.png.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromSubContainerPrefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromSubContainerPrefab/CircFoo.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromSubContainerPrefab/CircFoo.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromSubContainerPrefab/Foo.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromSubContainerPrefab/Foo.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromSubContainerPrefab/Foo2.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromSubContainerPrefab/Foo2.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromSubContainerPrefabResource.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromSubContainerPrefabResource/FooSubContainer.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestFromSubContainerPrefabResource/FooSubContainer.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestInstantiateCallback/Empty.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestInstantiateCallback/Empty.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestInstantiateCallback/Foo.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Resources/TestInstantiateCallback/Foo.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/AutoLoader.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/AutoLoader/Resources/ZenjectDefaultSceneContractConfig.asset
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/AutoLoader/Resources/ZenjectDefaultSceneContractConfig.asset.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/AutoLoader/Scene1Installer.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/AutoLoader/Scene1Installer.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/AutoLoader/Scene3.unity
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/AutoLoader/Scene3.unity.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/AutoLoader/Scene3Installer.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/AutoLoader/Scene3Installer.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/Decorators.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/Decorators/Resources.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/Decorators/Resources/ZenjectDefaultSceneContractConfig.asset
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/Decorators/Resources/ZenjectDefaultSceneContractConfig.asset.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/Decorators/Scene2.unity
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneContractTests/Decorators/Scene2.unity.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/FooDisposable1.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/FooDisposable1.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/FooDisposable3.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/FooDisposable3.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/FooMonoBehaviourUnderSceneContext1.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/FooMonoBehaviourUnderSceneContext1.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/ReadMe.txt
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/ReadMe.txt.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/RenameThisResources.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/Scene1Installer.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/Scene1Installer.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestSceneContextEvents.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestSceneContextEvents/SceneContextEventsTester.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestSceneContextEvents/SceneContextEventsTester.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestSceneContextEvents/TestSceneContextEvents.unity
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestSceneContextEvents/TestSceneContextEvents.unity.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestSceneContextEvents/TestSceneContextEventsSettings.lighting
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestSceneContextEvents/TestSceneContextEventsSettings.lighting.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestSceneContextEvents/Tests/Resources.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestSceneContextEvents/Tests/Resources/SceneTestFixtureSettings/TestSceneContextEvents.asset
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestSceneContextEvents/Tests/Resources/SceneTestFixtureSettings/TestSceneContextEvents.asset.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestDiContainerMethods.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromComponent.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromComponent/TestFromComponentOn.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromComponent/TestFromComponentOn.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromComponent/TestFromNewComponentOn.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromComponent/TestFromNewComponentOn.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromComponentInParents/TestFromComponentInParents.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromComponentInParents/TestFromComponentInParents.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromComponentInSiblings.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromGameObject/TestFromGameObject.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromGameObject/TestFromGameObject.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromGameObjectInstaller.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromPrefab/TestFromPrefab.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromPrefab/TestFromPrefab.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromPrefabResource.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromResource.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromResource/TestFromResource.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromResource/TestFromResource.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromSiblingComponent.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromSiblingComponent/TestFromSiblingComponent.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromSiblingComponent/TestFromSiblingComponent.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromSubContainerPrefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromSubContainerPrefab/TestFromSubContainerPrefab.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromSubContainerPrefab/TestFromSubContainerPrefab.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestFromSubContainerPrefabResource.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestInstantiateCallback.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestInstantiateCallback/TestInstantiateCallback.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestInstantiateCallback/TestInstantiateCallback.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestLazy/TestLazy.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Bindings/TestLazy/TestLazy.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Factories/PrefabFactory.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Factories/TestMemoryPools.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Installers/TestMonoInstallers.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Installers/TestScriptableObjectInstallers/TestScriptableObjectInstallers.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Misc.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/SceneTests.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/SceneTests/TestSceneContextEvents.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Util/FixtureUtil.cs
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Tests/Util/FixtureUtil.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Zenject-IntegrationTests.asmdef
+    - Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/Zenject-IntegrationTests.asmdef.meta
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor.meta
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor.meta
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/DebugWindow.meta
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/DebugWindow/InPlaceStableSort.cs
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/DebugWindow/InPlaceStableSort.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/DebugWindow/MpmView.cs
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/DebugWindow/MpmView.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/MpmSettingsInstaller.cs
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/MpmSettingsInstaller.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/Resources/Installers.meta
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/Resources/Installers/MpmSettingsInstaller.asset
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/Resources/Installers/MpmSettingsInstaller.asset.meta
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/TriangleDown.png
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/TriangleDown.png.meta
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/TriangleUp.png
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/TriangleUp.png.meta
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/Zenject-PoolMonitor-Editor.asmdef
+    - Assets/Plugins/Zenject/OptionalExtras/MemoryPoolMonitor/Editor/Zenject-PoolMonitor-Editor.asmdef.meta
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common.meta
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/ReflectionBakingModuleEditor.cs
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/ReflectionBakingModuleEditor.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib.meta
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll.meta
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll.meta
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll.meta
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll.meta
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Unity.meta
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Unity/AssemblyPathRegistry.cs
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Unity/AssemblyPathRegistry.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Unity/ReflectionBakingBuildObserver.cs
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Unity/ReflectionBakingBuildObserver.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Unity/ReflectionBakingInternalUtil.cs
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Unity/ReflectionBakingInternalUtil.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Unity/ZenjectReflectionBakingSettings.cs
+    - Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Unity/ZenjectReflectionBakingSettings.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner).meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Asteroids.unity
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Asteroids.unity.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/AsteroidsSettings.lighting
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/AsteroidsSettings.lighting.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Fonts/space
+      age.ttf
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Fonts/space
+      age.ttf.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Materials/CampFire_Smoke.mat
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Materials/CampFire_Smoke.mat.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Materials/FireA.mat
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Materials/FireA.mat.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Materials/OilSmoke.mat
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Materials/OilSmoke.mat.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Rocks.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Rocks/meshes/Materials/No
+      Name.mat
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Rocks/meshes/Materials/No
+      Name.mat.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Rocks/meshes/rock_01.fbx
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Rocks/meshes/rock_01.fbx.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Rocks/textures.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Rocks/textures/diffuse.tga
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Rocks/textures/diffuse.tga.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/SpaceShip/Materials.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/SpaceShip/Space_Shooter.fbm.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/SpaceShip/Space_Shooter.fbm/1K_Body-NM.jpg
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/SpaceShip/Space_Shooter.fbm/1K_Body-NM.jpg.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/SpaceShip/Textures.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/SpaceShip/Textures/1K_Body-TXTR.jpg
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/SpaceShip/Textures/1K_Body-TXTR.jpg.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/SpaceShip/Textures/1K_Spec.jpg
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/SpaceShip/Textures/1K_Spec.jpg.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Textures.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Textures/Candle.psd
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Textures/Candle.psd.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Textures/Glow.png
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Textures/Glow.png.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Textures/fire2.png.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Meshes/ship.fbx
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Meshes/ship.fbx.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Physics.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Sounds.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Textures/Background/Materials/Free_Shmup_Sprites_Starfield
+      1.mat
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Textures/Background/Materials/Free_Shmup_Sprites_Starfield
+      1.mat.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Textures/target.png
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Textures/target.png.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Prefabs/Fire.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Prefabs/ShipBroken.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Prefabs/ShipBroken.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Resources.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Resources/Installers/GameSettingsInstaller.asset
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Resources/Installers/GameSettingsInstaller.asset.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Asteroid.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Asteroid/AsteroidManager.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Installers/GameInstaller.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Installers/GameInstaller.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Installers/GameSettingsInstaller.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Installers/GameSettingsInstaller.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship/Ship.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship/Ship.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship/States/BrokenShipFactory.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship/States/BrokenShipFactory.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship/States/ExplosionFactory.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship/States/ExplosionFactory.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship/States/ShipStateWaitingToStart.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship/States/ShipStateWaitingToStart.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Util.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Materials.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Materials/BulletEnemy.mat
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Materials/BulletEnemy.mat.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Materials/Player.mat
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Materials/Player.mat.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Models/Materials/Material.mat
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Models/Materials/Material.mat.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Physics/Enemy.physicMaterial
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Physics/Enemy.physicMaterial.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Prefabs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Prefabs/Bullet.prefab
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Prefabs/Bullet.prefab.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Sounds/damage.wav
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Sounds/damage.wav.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Sounds/explosion.aiff
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Sounds/explosion.aiff.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Sounds/laser2.wav
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Sounds/laser2.wav.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Textures/Free_Shmup_Sprites_Starfield.png
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Textures/Free_Shmup_Sprites_Starfield.png.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Resources.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scenes/SpaceFighter.unity
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scenes/SpaceFighter.unity.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyCommonSettings.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyCommonSettings.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyFacade.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyFacade.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyTunables.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyTunables.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyView.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyView.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/States/EnemyStateAttack.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/States/EnemyStateAttack.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/States/EnemyStateIdle.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/States/EnemyStateIdle.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Installers/EnemyInstaller.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Installers/EnemyInstaller.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Installers/GameSettingsInstaller.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Installers/GameSettingsInstaller.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Installers/PlayerInstaller.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Installers/PlayerInstaller.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Misc.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Misc/Bullet.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Misc/Bullet.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Misc/ControlsDisplay.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Misc/ControlsDisplay.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Misc/EnemySpawner.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Misc/EnemySpawner.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerDirectionHandler.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerDirectionHandler.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerFacade.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerFacade.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerHealthWatcher.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerHealthWatcher.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerInputHandler.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerInputHandler.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerInputState.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerInputState.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerModel.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerModel.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerShootHandler.cs
+    - Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Player/PlayerShootHandler.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/BindSignal/BindSignalFromBinder.cs
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/BindSignal/BindSignalFromBinder.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/BindSignal/BindSignalIdToBinder.cs
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/BindSignal/BindSignalIdToBinder.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/BindSignal/BindSignalToBinder.cs
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/BindSignal/BindSignalToBinder.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/BindSignal/SignalCallbackWithLookupWrapper.cs
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/BindSignal/SignalCallbackWithLookupWrapper.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/BindSignal/SignalCallbackWrapper.cs
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/BindSignal/SignalCallbackWrapper.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/DeclareSignal.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/DeclareSignal/DeclareSignalAsyncTickPriorityCopyBinder.cs
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/DeclareSignal/DeclareSignalAsyncTickPriorityCopyBinder.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/DeclareSignal/DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder.cs
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/DeclareSignal/DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/DeclareSignal/DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder.cs
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/DeclareSignal/DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/DeclareSignal/SignalDeclarationBindInfo.cs
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/DeclareSignal/SignalDeclarationBindInfo.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/SignalExtensions.cs
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/SignalExtensions.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/SignalTickPriorityCopyBinder.cs
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/Binders/SignalTickPriorityCopyBinder.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/SignalSubscriptionId.cs
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/SignalSubscriptionId.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Main.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Main/SignalBusInstaller.cs
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Main/SignalBusInstaller.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Main/SignalDeclarationAsyncInitializer.cs
+    - Assets/Plugins/Zenject/OptionalExtras/Signals/Main/SignalDeclarationAsyncInitializer.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/TestFramework.meta
+    - Assets/Plugins/Zenject/OptionalExtras/TestFramework/SceneTestFixtureSceneReference.cs
+    - Assets/Plugins/Zenject/OptionalExtras/TestFramework/SceneTestFixtureSceneReference.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/TestFramework/ValidateOnlyAttribute.cs
+    - Assets/Plugins/Zenject/OptionalExtras/TestFramework/ValidateOnlyAttribute.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestIfNotBound.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestIfNotBound.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestMoveIntoAllSubContainers.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestMoveIntoAllSubContainers.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestMoveIntoDirectSubContainers.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestMoveIntoDirectSubContainers.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestMultipleContractTypes.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestMultipleContractTypes.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestNonLazy.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestNonLazy.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestRebind.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestRebind.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestUnbind.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestUnbind.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestWithArguments.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/BindFeatures/TestWithArguments.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFrom.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFrom.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromFactory.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromFactory.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromGetter.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromIFactory2.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromIFactory2.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromMethod.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromResolve.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Bindings/TestFromSubContainerInstaller.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestConditionsBasic.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestConditionsBasic.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestConditionsFieldName.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestConditionsFieldName.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestConditionsTarget.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestConditionsTarget.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestConditionsTargetInstance.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestConditionsTargetInstance.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestIdentifierTypes.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conditions/TestIdentifierTypes.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conventions/Foo.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conventions/Foo.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conventions/TestConvention.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conventions/TestConvention.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Conventions/TestConventionNames.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFrom0.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFrom0.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFrom1.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFrom1.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFrom5.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFrom5.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromFactory0.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromFactory0.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromFactory1.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromFactory1.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromMethod0.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromMethod0.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromResolve0.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromResolve0.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromSubContainerInstaller0.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromSubContainerInstaller1.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromSubContainerInstaller1.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromSubContainerMethod0.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/Bindings/TestFactoryFromSubContainerMethod0.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Factories/IFactory.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestAllInjectionTypes.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestAllInjectionTypes.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestConstructorInjection.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestConstructorInjection.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestConstructorInjectionOptional.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestConstructorInjectionOptional.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestDuplicateInjection.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestInjectSources.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestInjectSources.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestNullableValues.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestNullableValues.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestStructInjection.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Injection/TestStructInjection.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/MemoryPool/TestDisposeBlock.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/MemoryPool/TestDisposeBlock.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/MemoryPool/TestFromPoolableMemoryPoolSix.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/MemoryPool/TestFromPoolableMemoryPoolZero.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/MemoryPool/TestFromPoolableMemoryPoolZero.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestAllocs.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestAsSingle.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestAsSingle.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestBindCallbacks.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestBindCallbacks.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestDecoratorValidation.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestFactoryMemoryPoolCustomInterface.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestGenericContract.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestGenericContract.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestLazy.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestNestedContainer.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestNestedContainer.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestResolve.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestSubContainers.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestValidation.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Other/TestValidation.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Profiling.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Signals/TestAsyncSignals.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Signals/TestAsyncSignals.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Signals/TestSignals1.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Signals/TestSignals1.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Util.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Util/TestListComparer.cs
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Util/TestListComparer.cs.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Zenject-UnitTests-Editor.asmdef
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/Editor/Zenject-UnitTests-Editor.asmdef.meta
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/ReadMe.txt
+    - Assets/Plugins/Zenject/OptionalExtras/UnitTests/ReadMe.txt.meta
+    - Assets/Plugins/Zenject/ReadMe.url
+    - Assets/Plugins/Zenject/ReadMe.url.meta
+    - Assets/Plugins/Zenject/Source.meta
+    - Assets/Plugins/Zenject/Source/Binding.meta
+    - Assets/Plugins/Zenject/Source/Binding/BindInfo.meta
+    - Assets/Plugins/Zenject/Source/Binding/BindInfo/BindInfo.cs
+    - Assets/Plugins/Zenject/Source/Binding/BindInfo/BindInfo.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/BindInfo/BindStatement.cs
+    - Assets/Plugins/Zenject/Source/Binding/BindInfo/BindStatement.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/BindInfo/FactoryBindInfo.cs
+    - Assets/Plugins/Zenject/Source/Binding/BindInfo/FactoryBindInfo.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/BindInfo/GameObjectCreationParameters.cs
+    - Assets/Plugins/Zenject/Source/Binding/BindInfo/GameObjectCreationParameters.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/BindInfo/MemoryPoolBindInfo.cs
+    - Assets/Plugins/Zenject/Source/Binding/BindInfo/MemoryPoolBindInfo.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteBinderGeneric.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteBinderGeneric.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteIdBinderGeneric.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteIdBinderGeneric.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteIdBinderNonGeneric.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteIdBinderNonGeneric.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteIdArgConditionCopyNonLazyBinder.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteIdArgConditionCopyNonLazyBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/ConditionCopyNonLazyBinder.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/ConditionCopyNonLazyBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Conventions.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionAssemblySelectionBinder.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionAssemblySelectionBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionBindInfo.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionBindInfo.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionFilterTypesBinder.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionFilterTypesBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionSelectTypesBinder.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionSelectTypesBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/CopyNonLazyBinder.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/CopyNonLazyBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder0.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder0.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder2.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder2.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder4.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder4.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder0.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder0.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder10.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder10.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder3.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder3.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder6.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder6.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder0.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder0.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder10.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder10.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder2.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder2.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder3.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder3.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder6.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder6.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinderBase.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinderBase.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/Untyped/FactoryFromBinderUntyped.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/Untyped/FactoryFromBinderUntyped.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinderBase.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinderBase.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/DecoratorToChoiceFromBinder.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/DecoratorToChoiceFromBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder0.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder0.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder1.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder1.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder10.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder10.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder2.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder2.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder3.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder3.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder4.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder4.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder5.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder5.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder6.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder6.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder0.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder0.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder10.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder10.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder3.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder3.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/PlaceholderFactoryBindingFinalizer.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/Factory/PlaceholderFactoryBindingFinalizer.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinder.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/GameObject.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/TransformScopeConcreteIdArgConditionCopyNonLazyBinder.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/TransformScopeConcreteIdArgConditionCopyNonLazyBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/IdBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/IdScopeConcreteIdArgConditionCopyNonLazyBinder.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/IdScopeConcreteIdArgConditionCopyNonLazyBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/IfNotBoundBinder.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/IfNotBoundBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/NonLazyBinder.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/NonLazyBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/ScopeConcreteIdArgConditionCopyNonLazyBinder.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/ScopeConcreteIdArgConditionCopyNonLazyBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/SubContainerBinder.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/SubContainerBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Binders/WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder.cs
+    - Assets/Plugins/Zenject/Source/Binding/Binders/WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/BindingUtil.cs
+    - Assets/Plugins/Zenject/Source/Binding/BindingUtil.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Finalizers.meta
+    - Assets/Plugins/Zenject/Source/Binding/Finalizers/NullBindingFinalizer.cs
+    - Assets/Plugins/Zenject/Source/Binding/Finalizers/NullBindingFinalizer.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Finalizers/PrefabResourceBindingFinalizer.cs
+    - Assets/Plugins/Zenject/Source/Binding/Finalizers/PrefabResourceBindingFinalizer.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Finalizers/ProviderBindingFinalizer.cs
+    - Assets/Plugins/Zenject/Source/Binding/Finalizers/ProviderBindingFinalizer.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Finalizers/ScopableBindingFinalizer.cs
+    - Assets/Plugins/Zenject/Source/Binding/Finalizers/ScopableBindingFinalizer.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Finalizers/SingleProviderBindingFinalizer.cs
+    - Assets/Plugins/Zenject/Source/Binding/Finalizers/SingleProviderBindingFinalizer.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerBindingFinalizer.cs
+    - Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerBindingFinalizer.cs.meta
+    - Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerPrefabBindingFinalizer.cs
+    - Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerPrefabBindingFinalizer.cs.meta
+    - Assets/Plugins/Zenject/Source/Editor/EditorStaticInstaller.cs
+    - Assets/Plugins/Zenject/Source/Editor/EditorStaticInstaller.cs.meta
+    - Assets/Plugins/Zenject/Source/Editor/EditorWindow.meta
+    - Assets/Plugins/Zenject/Source/Editor/EditorWindow/ZenjectEditorWindow.cs
+    - Assets/Plugins/Zenject/Source/Editor/EditorWindow/ZenjectEditorWindow.cs.meta
+    - Assets/Plugins/Zenject/Source/Editor/Editors.meta
+    - Assets/Plugins/Zenject/Source/Editor/Editors/ContextEditor.cs
+    - Assets/Plugins/Zenject/Source/Editor/Editors/ContextEditor.cs.meta
+    - Assets/Plugins/Zenject/Source/Editor/Editors/ProjectContextEditor.cs
+    - Assets/Plugins/Zenject/Source/Editor/Editors/ProjectContextEditor.cs.meta
+    - Assets/Plugins/Zenject/Source/Editor/Editors/RunnableContextEditor.cs.meta
+    - Assets/Plugins/Zenject/Source/Editor/Editors/SceneDecoratorContextEditor.cs
+    - Assets/Plugins/Zenject/Source/Editor/Editors/SceneDecoratorContextEditor.cs.meta
+    - Assets/Plugins/Zenject/Source/Editor/ObjectGraphVisualizer.cs
+    - Assets/Plugins/Zenject/Source/Editor/ObjectGraphVisualizer.cs.meta
+    - Assets/Plugins/Zenject/Source/Editor/SceneParentLoading.meta
+    - Assets/Plugins/Zenject/Source/Editor/SceneParentLoading/DefaultSceneContractConfig.cs
+    - Assets/Plugins/Zenject/Source/Editor/SceneParentLoading/DefaultSceneContractConfig.cs.meta
+    - Assets/Plugins/Zenject/Source/Editor/SceneParentLoading/SceneParentAutomaticLoader.cs
+    - Assets/Plugins/Zenject/Source/Editor/SceneParentLoading/SceneParentAutomaticLoader.cs.meta
+    - Assets/Plugins/Zenject/Source/Editor/UnityInspectorListEditor.cs
+    - Assets/Plugins/Zenject/Source/Editor/UnityInspectorListEditor.cs.meta
+    - Assets/Plugins/Zenject/Source/Editor/ZenMenuItems.cs
+    - Assets/Plugins/Zenject/Source/Editor/ZenMenuItems.cs.meta
+    - Assets/Plugins/Zenject/Source/Editor/ZenUnityEditorUtil.cs
+    - Assets/Plugins/Zenject/Source/Editor/ZenUnityEditorUtil.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories.meta
+    - Assets/Plugins/Zenject/Source/Factories/IFactory.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/KeyedFactory.cs
+    - Assets/Plugins/Zenject/Source/Factories/KeyedFactory.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/PlaceholderFactory.cs
+    - Assets/Plugins/Zenject/Source/Factories/PlaceholderFactory.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/PlaceholderFactoryBase.cs
+    - Assets/Plugins/Zenject/Source/Factories/PlaceholderFactoryBase.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/Pooling.meta
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/IMemoryPool.cs
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/IMemoryPool.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/MemoryPoolBase.cs
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/MemoryPoolBase.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/MonoMemoryPool.cs
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/MonoMemoryPool.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/MonoPoolableMemoryPool.cs
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/MonoPoolableMemoryPool.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/PoolableMemoryPool.cs
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/PoolableMemoryPool.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/Static.meta
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/Static/PoolableStaticMemoryPool.cs
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/Static/PoolableStaticMemoryPool.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/Static/StaticMemoryPool.cs
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/Static/StaticMemoryPool.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/Util/ArrayPool.cs
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/Util/ArrayPool.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/Util/DictionaryPool.cs
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/Util/DictionaryPool.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/Util/HashSetPool.cs
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/Util/HashSetPool.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/Util/ListPool.cs
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/Util/ListPool.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/Util/PoolCleanupChecker.cs
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/Util/PoolCleanupChecker.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/Util/StaticMemoryPoolRegistry.cs
+    - Assets/Plugins/Zenject/Source/Factories/Pooling/Util/StaticMemoryPoolRegistry.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/PrefabFactory.cs
+    - Assets/Plugins/Zenject/Source/Factories/PrefabFactory.cs.meta
+    - Assets/Plugins/Zenject/Source/Factories/PrefabResourceFactory.cs
+    - Assets/Plugins/Zenject/Source/Factories/PrefabResourceFactory.cs.meta
+    - Assets/Plugins/Zenject/Source/Injection.meta
+    - Assets/Plugins/Zenject/Source/Injection/InjectUtil.cs
+    - Assets/Plugins/Zenject/Source/Injection/InjectUtil.cs.meta
+    - Assets/Plugins/Zenject/Source/Injection/LazyInject.cs
+    - Assets/Plugins/Zenject/Source/Injection/LazyInject.cs.meta
+    - Assets/Plugins/Zenject/Source/Install.meta
+    - Assets/Plugins/Zenject/Source/Install/Contexts.meta
+    - Assets/Plugins/Zenject/Source/Install/Contexts/Context.cs
+    - Assets/Plugins/Zenject/Source/Install/Contexts/Context.cs.meta
+    - Assets/Plugins/Zenject/Source/Install/Contexts/GameObjectContext.cs
+    - Assets/Plugins/Zenject/Source/Install/Contexts/GameObjectContext.cs.meta
+    - Assets/Plugins/Zenject/Source/Install/Contexts/ProjectContext.cs
+    - Assets/Plugins/Zenject/Source/Install/Contexts/ProjectContext.cs.meta
+    - Assets/Plugins/Zenject/Source/Install/Contexts/RunnableContext.cs
+    - Assets/Plugins/Zenject/Source/Install/Contexts/RunnableContext.cs.meta
+    - Assets/Plugins/Zenject/Source/Install/Contexts/SceneContext.cs
+    - Assets/Plugins/Zenject/Source/Install/Contexts/SceneContext.cs.meta
+    - Assets/Plugins/Zenject/Source/Install/Contexts/SceneDecoratorContext.cs
+    - Assets/Plugins/Zenject/Source/Install/Contexts/SceneDecoratorContext.cs.meta
+    - Assets/Plugins/Zenject/Source/Install/Contexts/StaticContext.cs
+    - Assets/Plugins/Zenject/Source/Install/Contexts/StaticContext.cs.meta
+    - Assets/Plugins/Zenject/Source/Install/IInstaller.cs
+    - Assets/Plugins/Zenject/Source/Install/IInstaller.cs.meta
+    - Assets/Plugins/Zenject/Source/Install/Installer.cs
+    - Assets/Plugins/Zenject/Source/Install/Installer.cs.meta
+    - Assets/Plugins/Zenject/Source/Install/InstallerBase.cs
+    - Assets/Plugins/Zenject/Source/Install/InstallerBase.cs.meta
+    - Assets/Plugins/Zenject/Source/Install/MonoInstaller.cs
+    - Assets/Plugins/Zenject/Source/Install/MonoInstaller.cs.meta
+    - Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs
+    - Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs.meta
+    - Assets/Plugins/Zenject/Source/Install/ScriptableObjectInstallerBase.cs
+    - Assets/Plugins/Zenject/Source/Install/ScriptableObjectInstallerBase.cs.meta
+    - Assets/Plugins/Zenject/Source/Internal.meta
+    - Assets/Plugins/Zenject/Source/Internal/Assert.cs
+    - Assets/Plugins/Zenject/Source/Internal/Assert.cs.meta
+    - Assets/Plugins/Zenject/Source/Internal/Func.cs
+    - Assets/Plugins/Zenject/Source/Internal/Func.cs.meta
+    - Assets/Plugins/Zenject/Source/Internal/LinqExtensions.cs
+    - Assets/Plugins/Zenject/Source/Internal/LinqExtensions.cs.meta
+    - Assets/Plugins/Zenject/Source/Internal/Log.cs
+    - Assets/Plugins/Zenject/Source/Internal/Log.cs.meta
+    - Assets/Plugins/Zenject/Source/Internal/MiscExtensions.cs
+    - Assets/Plugins/Zenject/Source/Internal/MiscExtensions.cs.meta
+    - Assets/Plugins/Zenject/Source/Internal/PreserveAttribute.cs
+    - Assets/Plugins/Zenject/Source/Internal/PreserveAttribute.cs.meta
+    - Assets/Plugins/Zenject/Source/Internal/TypeExtensions.cs
+    - Assets/Plugins/Zenject/Source/Internal/TypeExtensions.cs.meta
+    - Assets/Plugins/Zenject/Source/Internal/TypeStringFormatter.cs
+    - Assets/Plugins/Zenject/Source/Internal/TypeStringFormatter.cs.meta
+    - Assets/Plugins/Zenject/Source/Internal/ValuePair.cs
+    - Assets/Plugins/Zenject/Source/Internal/ValuePair.cs.meta
+    - Assets/Plugins/Zenject/Source/Main.meta
+    - Assets/Plugins/Zenject/Source/Main/BindingId.cs
+    - Assets/Plugins/Zenject/Source/Main/BindingId.cs.meta
+    - Assets/Plugins/Zenject/Source/Main/DiContainer.cs
+    - Assets/Plugins/Zenject/Source/Main/DiContainer.cs.meta
+    - Assets/Plugins/Zenject/Source/Main/IInstantiator.cs
+    - Assets/Plugins/Zenject/Source/Main/IInstantiator.cs.meta
+    - Assets/Plugins/Zenject/Source/Main/LazyInstanceInjector.cs
+    - Assets/Plugins/Zenject/Source/Main/LazyInstanceInjector.cs.meta
+    - Assets/Plugins/Zenject/Source/Main/LookupId.cs
+    - Assets/Plugins/Zenject/Source/Main/LookupId.cs.meta
+    - Assets/Plugins/Zenject/Source/Main/SingletonMarkRegistry.cs
+    - Assets/Plugins/Zenject/Source/Main/SingletonMarkRegistry.cs.meta
+    - Assets/Plugins/Zenject/Source/Main/ZenjectSettings.cs
+    - Assets/Plugins/Zenject/Source/Main/ZenjectSettings.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers.meta
+    - Assets/Plugins/Zenject/Source/Providers/CachedOpenTypeProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/CachedOpenTypeProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/CachedProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/CachedProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders.meta
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders.meta
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToCurrentGameObjectComponentProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToCurrentGameObjectComponentProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToExistingGameObjectComponentProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToExistingGameObjectComponentProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToGameObjectComponentProviderBase.cs
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToGameObjectComponentProviderBase.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToNewGameObjectComponentProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToNewGameObjectComponentProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders/GetFromGameObjectComponentProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders/GetFromGameObjectComponentProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders/GetFromGameObjectGetterComponentProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders/GetFromGameObjectGetterComponentProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders/GetFromPrefabComponentProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders/GetFromPrefabComponentProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders/InstantiateOnPrefabComponentProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/ComponentProviders/InstantiateOnPrefabComponentProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/Decorator.meta
+    - Assets/Plugins/Zenject/Source/Providers/Decorator/DecoratorProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/Decorator/DecoratorProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/GameObjectProviders.meta
+    - Assets/Plugins/Zenject/Source/Providers/GameObjectProviders/EmptyGameObjectProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/GameObjectProviders/EmptyGameObjectProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/GameObjectProviders/PrefabGameObjectProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/GameObjectProviders/PrefabGameObjectProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/GetterProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/GetterProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/IFactoryProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/IFactoryProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/IProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/IProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/IProviderExtensions.cs
+    - Assets/Plugins/Zenject/Source/Providers/IProviderExtensions.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/InstanceProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/InstanceProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/MethodMultipleProviderUntyped.cs
+    - Assets/Plugins/Zenject/Source/Providers/MethodMultipleProviderUntyped.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/MethodProviderMultiple.cs
+    - Assets/Plugins/Zenject/Source/Providers/MethodProviderMultiple.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/MethodProviderSimple.cs
+    - Assets/Plugins/Zenject/Source/Providers/MethodProviderSimple.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/MethodProviderUntyped.cs
+    - Assets/Plugins/Zenject/Source/Providers/MethodProviderUntyped.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/MethodProviderWithContainer.cs
+    - Assets/Plugins/Zenject/Source/Providers/MethodProviderWithContainer.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/PoolableMemoryPoolProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/PoolableMemoryPoolProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/PrefabCreators.meta
+    - Assets/Plugins/Zenject/Source/Providers/PrefabCreators/PrefabInstantiator.cs
+    - Assets/Plugins/Zenject/Source/Providers/PrefabCreators/PrefabInstantiator.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/PrefabCreators/PrefabInstantiatorCached.cs
+    - Assets/Plugins/Zenject/Source/Providers/PrefabCreators/PrefabInstantiatorCached.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/PrefabProviders/IPrefabProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/PrefabProviders/IPrefabProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/PrefabProviders/PrefabProviderCustom.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/PrefabProviders/PrefabProviderResource.cs
+    - Assets/Plugins/Zenject/Source/Providers/PrefabProviders/PrefabProviderResource.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/ProviderUtil.cs
+    - Assets/Plugins/Zenject/Source/Providers/ProviderUtil.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/ResolveProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/ScriptableObjectInstanceProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/ScriptableObjectInstanceProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/ScriptableObjectResourceProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/ScriptableObjectResourceProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorBindInfo.cs
+    - Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorBindInfo.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByInstaller.cs
+    - Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByInstaller.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByInstance.cs
+    - Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByInstance.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByInstanceGetter.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByMethod.cs
+    - Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByMethod.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewGameObjectDynamicContext.cs
+    - Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewGameObjectDynamicContext.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefab.cs
+    - Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefab.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefabWithParams.cs
+    - Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefabWithParams.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorDynamicContext.cs
+    - Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorDynamicContext.cs.meta
+    - Assets/Plugins/Zenject/Source/Providers/TransientProvider.cs
+    - Assets/Plugins/Zenject/Source/Providers/TransientProvider.cs.meta
+    - Assets/Plugins/Zenject/Source/Runtime.meta
+    - Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces.meta
+    - Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorIkHandlerManager.cs
+    - Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorIkHandlerManager.cs.meta
+    - Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorInstaller.cs
+    - Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorInstaller.cs.meta
+    - Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/IAnimatorMoveHandler.cs
+    - Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/IAnimatorMoveHandler.cs.meta
+    - Assets/Plugins/Zenject/Source/Runtime/DisposableManager.cs
+    - Assets/Plugins/Zenject/Source/Runtime/DisposableManager.cs.meta
+    - Assets/Plugins/Zenject/Source/Runtime/GuiRenderableManager.cs.meta
+    - Assets/Plugins/Zenject/Source/Runtime/InitializableManager.cs
+    - Assets/Plugins/Zenject/Source/Runtime/InitializableManager.cs.meta
+    - Assets/Plugins/Zenject/Source/Runtime/Kernels/MonoKernel.cs.meta
+    - Assets/Plugins/Zenject/Source/Runtime/Kernels/SceneKernel.cs
+    - Assets/Plugins/Zenject/Source/Runtime/Kernels/SceneKernel.cs.meta
+    - Assets/Plugins/Zenject/Source/Runtime/PoolableManager.cs
+    - Assets/Plugins/Zenject/Source/Runtime/PoolableManager.cs.meta
+    - Assets/Plugins/Zenject/Source/Runtime/SceneContextRegistryAdderAndRemover.cs
+    - Assets/Plugins/Zenject/Source/Runtime/SceneContextRegistryAdderAndRemover.cs.meta
+    - Assets/Plugins/Zenject/Source/Runtime/TaskUpdater.cs.meta
+    - Assets/Plugins/Zenject/Source/Runtime/TickableManager.cs
+    - Assets/Plugins/Zenject/Source/Runtime/TickableManager.cs.meta
+    - Assets/Plugins/Zenject/Source/Usage.meta
+    - Assets/Plugins/Zenject/Source/Usage/link.xml
+    - Assets/Plugins/Zenject/Source/Usage/link.xml.meta
+    - Assets/Plugins/Zenject/Source/Util.meta
+    - Assets/Plugins/Zenject/Source/Util/ActionInstaller.cs
+    - Assets/Plugins/Zenject/Source/Util/ActionInstaller.cs.meta
+    - Assets/Plugins/Zenject/Source/Util/CheatSheet.cs
+    - Assets/Plugins/Zenject/Source/Util/CheatSheet.cs.meta
+    - Assets/Plugins/Zenject/Source/Util/DefaultGameObjectParentInstaller.cs
+    - Assets/Plugins/Zenject/Source/Util/DefaultGameObjectParentInstaller.cs.meta
+    - Assets/Plugins/Zenject/Source/Util/DisposeBlock.cs
+    - Assets/Plugins/Zenject/Source/Util/DisposeBlock.cs.meta
+    - Assets/Plugins/Zenject/Source/Util/ExecutionOrderInstaller.cs
+    - Assets/Plugins/Zenject/Source/Util/ExecutionOrderInstaller.cs.meta
+    - Assets/Plugins/Zenject/Source/Util/ProfileBlock.cs.meta
+    - Assets/Plugins/Zenject/Source/Util/ReflectionTypeInfo.cs.meta
+    - Assets/Plugins/Zenject/Source/Util/ReflectionUtil.cs
+    - Assets/Plugins/Zenject/Source/Util/ReflectionUtil.cs.meta
+    - Assets/Plugins/Zenject/Source/Util/TypeAnalyzer.cs.meta
+    - Assets/Plugins/Zenject/Source/Util/UnityUtil.cs
+    - Assets/Plugins/Zenject/Source/Util/UnityUtil.cs.meta
+    - Assets/Plugins/Zenject/Source/Util/ZenjectSceneLoader.cs
+    - Assets/Plugins/Zenject/Source/Util/ZenjectSceneLoader.cs.meta
+    - Assets/Plugins/Zenject/Source/Util/ZenjectStateMachineBehaviourAutoInjecter.cs
+    - Assets/Plugins/Zenject/Source/Util/ZenjectStateMachineBehaviourAutoInjecter.cs.meta
+    - Assets/Plugins/Zenject/Source/Validation.meta
+    - Assets/Plugins/Zenject/Source/Validation/IValidatable.cs
+    - Assets/Plugins/Zenject/Source/Validation/IValidatable.cs.meta
+    - Assets/Plugins/Zenject/Source/Validation/ValidationMarker.cs
+    - Assets/Plugins/Zenject/Source/Validation/ValidationMarker.cs.meta
+    - Assets/Plugins/Zenject/Version.txt
+    - Assets/Plugins/Zenject/Version.txt.meta
+    - Assets/Plugins/Zenject/package.json.meta
+    - Assets/Plugins/Zenject/zenject.asmdef
+    - Assets/Plugins/Zenject/zenject.asmdef.meta
+    - Assets/Popups.meta
+    - Assets/Popups/CharacterPopup.prefab
+    - Assets/Popups/CharacterPopup.prefab.meta
+    - Assets/Popups/GeneralPopup.prefab
+    - Assets/Popups/GeneralPopup.prefab.meta
+    - Assets/Popups/SubmitPrefab.prefab
+    - Assets/Popups/SubmitPrefab.prefab.meta
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/Popups.meta
+    - Assets/Prefabs/Popups/CharacterPopup.prefab
+    - Assets/Prefabs/Popups/CharacterPopup.prefab.meta
+    - Assets/Prefabs/Popups/SubmitPrefab.prefab
+    - Assets/Prefabs/Popups/SubmitPrefab.prefab.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/Scene.unity
+    - Assets/Scenes/Scene.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/CharacterPopupPresenter.meta
+    - Assets/Scripts/CharacterPopupPresenter/ICharacterPopupPresenter.cs
+    - Assets/Scripts/CharacterPopupPresenter/ICharacterPopupPresenter.cs.meta
+    - Assets/Scripts/CharacterPopupPresenter/PopupPresenter.cs
+    - Assets/Scripts/CharacterPopupPresenter/PopupPresenter.cs.meta
+    - Assets/Scripts/CharacterPopupPresenter/PopupPresenterFactory.cs
+    - Assets/Scripts/CharacterPopupPresenter/PopupPresenterFactory.cs.meta
+    - Assets/Scripts/Installers.meta
+    - Assets/Scripts/Installers/DataInstaller.cs
+    - Assets/Scripts/Installers/DataInstaller.cs.meta
+    - Assets/Scripts/Installers/SceneInstaller.cs
+    - Assets/Scripts/Installers/SceneInstaller.cs.meta
+    - Assets/Scripts/Player/CharacterStats.cs
+    - Assets/Scripts/Player/CharacterStats.cs.meta
+    - Assets/Scripts/Player/IModelSetters.cs
+    - Assets/Scripts/Player/IModelSetters.cs.meta
+    - Assets/Scripts/Player/PlayerLevel.cs
+    - Assets/Scripts/Player/PlayerLevel.cs.meta
+    - Assets/Scripts/PopUpHelper.meta
+    - Assets/Scripts/PopUpHelper/CharacterInfoSetter.cs
+    - Assets/Scripts/PopUpHelper/CharacterInfoSetter.cs.meta
+    - Assets/Scripts/ScriptableObjects/CharacterPopupElements.cs
+    - Assets/Scripts/ScriptableObjects/CharacterPopupElements.cs.meta
+    - Assets/Scripts/ScriptableObjects/DataInstaller.asset.meta
+    - Assets/Scripts/Utils.meta
+    - Assets/Scripts/Utils/StatTypeToViewNameConverter.cs.meta
+    - Assets/Sprites.meta
+    - Assets/Sprites/Ava1.png
+    - Assets/Sprites/Ava1.png.meta
+    - Assets/Sprites/Ava2.png
+    - Assets/Sprites/Ava2.png.meta
+    - Assets/Sprites/Ava3.png
+    - Assets/Sprites/Ava3.png.meta
+    - Assets/Sprites/Button (Close).png
+    - Assets/Sprites/Button (Close).png.meta
+    - Assets/Sprites/ButtonActive.png
+    - Assets/Sprites/ButtonActive.png.meta
+    - Assets/Sprites/ButtonInactive.png
+    - Assets/Sprites/ButtonInactive.png.meta
+    - Assets/Sprites/Point.png
+    - Assets/Sprites/Point.png.meta
+    - Assets/Sprites/Popup (Background).png
+    - Assets/Sprites/Popup (Background).png.meta
+    - Assets/Sprites/Popup (Header).png
+    - Assets/Sprites/Popup (Header).png.meta
+    - Assets/Sprites/Portrait.png
+    - Assets/Sprites/Portrait.png.meta
+    - Assets/Sprites/ProgressBar (Background).png
+    - Assets/Sprites/ProgressBar (Background).png.meta
+    - Assets/Sprites/ProgressBar (Completed).png
+    - Assets/Sprites/ProgressBar (Completed).png.meta
+    - Assets/Sprites/ProgressBar (Not completed).png
+    - Assets/Sprites/ProgressBar (Not completed).png.meta
+    - Assets/Sprites/Sunrays.png
+    - Assets/Sprites/Sunrays.png.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Examples & Extras.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark
+      to Light Green - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark
+      to Light Green - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light
+      to Dark Green - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light
+      to Dark Green - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic
+      Highway Sign SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic
+      Highway Sign SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite
+      Asset.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
