@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceba43b7cc23e46c791f6cd6afdb0621, type: 3}
+  m_Name: CharacterPopupElements
+  m_EditorClassIdentifier: 
+  Name: {fileID: 0}
+  CurrentLevel: {fileID: 0}
+  Description: {fileID: 0}
+  ProfilePicture: {fileID: 0}
+  Xp: {fileID: 0}
+  FullBar: {fileID: 0}
+  NotFullBar: {fileID: 0}
+  NotFullBarImage: {fileID: 0}
+  MoveSpeedStat: {fileID: 0}
+  StaminaStat: {fileID: 0}
+  DexterityStat: {fileID: 0}
+  IntelligenceStat: {fileID: 0}
+  DamageStat: {fileID: 0}
+  RegenerationStat: {fileID: 0}
+  InactiveBtn: {fileID: 0}
+  ActiveBtn: {fileID: 0}
+  CloseBtn: {fileID: 0}
+  SubmitBtn: {fileID: 0}

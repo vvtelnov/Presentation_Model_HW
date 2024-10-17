@@ -65,7 +65,7 @@ namespace PopupView
         private Color _decreseColor = new Color32(255, 73, 85, 255);
         private Color _textBaseColor = new Color32(25, 25, 25, 255);
         
-        void IPopupView.Open(ICharacterPopupPresenter args)
+        public void Open(ICharacterPopupPresenter args)
         {
             SetPopupElements(args.PopupElements);
             
@@ -118,7 +118,7 @@ namespace PopupView
         }
 
 
-        void IPopupView.Close()
+        public void Close()
         {
             _closeBtn.onClick.RemoveListener(((IPopupView)this).Close);
             if (_canLevelUp)
@@ -127,8 +127,8 @@ namespace PopupView
             }
             
             OnClose?.Invoke();
-            
-            Destroy(gameObject);
+
+            gameObject.SetActive(false);
         }
 
         private void SetPopupElements(CharacterPopupElements popupElements)

@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b21f2840b3d4adbb2ec556c45e222e5, type: 3}
+  m_Script: {fileID: 11500000, guid: 2dcafd731d6434e6da9c4557d81b89ac, type: 3}
   m_Name: DataInstaller
   m_EditorClassIdentifier: 
-  _popupElements: {fileID: 11400000, guid: c3651aa95088947979a496d6dd015b43, type: 2}
+  _popupElements: {fileID: 0}
