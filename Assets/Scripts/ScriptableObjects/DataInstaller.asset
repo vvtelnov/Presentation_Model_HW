@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dcafd731d6434e6da9c4557d81b89ac, type: 3}
   m_Name: DataInstaller
   m_EditorClassIdentifier: 
-  _popupElements: {fileID: 0}
+  _popupElements: {fileID: 11400000, guid: d91915eaf84cc464996e8d2fe75377c0, type: 2}

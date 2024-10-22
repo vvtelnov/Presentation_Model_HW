@@ -16,71 +16,71 @@ namespace Player
 
     public sealed class CharacterStats : ICharacterStatsModelSetter
     {
-    public event Action<CharacterStat> OnStatAdded;
-    public event Action<CharacterStat> OnStatRemoved;
-    public event Action<CharacterStat> OnStatValueChanged;
+        public event Action<CharacterStat> OnStatAdded;
+        public event Action<CharacterStat> OnStatRemoved;
+        public event Action<CharacterStat> OnStatValueChanged;
 
-    private readonly HashSet<CharacterStat> stats = new();
+        private readonly HashSet<CharacterStat> _stats = new();
 
-    public void AddStat(CharacterStat stat)
-    {
-        if (this.stats.Add(stat))
+        public void AddStat(CharacterStat stat)
         {
-            this.OnStatAdded?.Invoke(stat);
-        }
-    }
-
-    public void RemoveStat(CharacterStat stat)
-    {
-        if (this.stats.Remove(stat))
-        {
-            this.OnStatRemoved?.Invoke(stat);
-        }
-    }
-
-    public void IncreaseStat(CharacterStat stat, uint increaseValue)
-    {
-        uint newValue = stat.Value + increaseValue;
-        stat.ChangeValue(newValue);
-        OnStatValueChanged?.Invoke(stat);
-    }
-
-    public void DecreaseStat(CharacterStat stat, uint decreaseValue)
-    {
-        var newValue = (uint)Math.Max((int)(stat.Value - decreaseValue), 0);
-        stat.ChangeValue(newValue);
-        OnStatValueChanged?.Invoke(stat);
-    }
-
-    public CharacterStat GetStat(Stats statType)
-    {
-        foreach (var stat in this.stats)
-        {
-            if (stat.StatType == statType)
+            if (this._stats.Add(stat))
             {
-                return stat;
+                this.OnStatAdded?.Invoke(stat);
             }
         }
 
-        throw new Exception($"Stat {statType} is not found!");
-    }
-
-    public void ChangeStatValue(Stats statType, int value)
-    {
-        CharacterStat stat = GetStat(statType);
-
-        if ((stat.Value + value) < 0)
+        public void RemoveStat(CharacterStat stat)
         {
-            throw new Exception($"You tried to change stat {statType} value to value bellow zero");
+            if (this._stats.Remove(stat))
+            {
+                this.OnStatRemoved?.Invoke(stat);
+            }
         }
-        
-        stat.ChangeValue((uint)(stat.Value + value));
-        OnStatValueChanged?.Invoke(stat);
-    }
 
-    public CharacterStat[] GetStats()
-    {
-        return this.stats.ToArray();
-    }
+        public void IncreaseStat(CharacterStat stat, uint increaseValue)
+        {
+            uint newValue = stat.Value + increaseValue;
+            stat.ChangeValue(newValue);
+            OnStatValueChanged?.Invoke(stat);
+        }
+
+        public void DecreaseStat(CharacterStat stat, uint decreaseValue)
+        {
+            var newValue = (uint)Math.Max((int)(stat.Value - decreaseValue), 0);
+            stat.ChangeValue(newValue);
+            OnStatValueChanged?.Invoke(stat);
+        }
+
+        public CharacterStat GetStat(Stats statType)
+        {
+            foreach (var stat in this._stats)
+            {
+                if (stat.StatType == statType)
+                {
+                    return stat;
+                }
+            }
+
+            throw new Exception($"Stat {statType} is not found!");
+        }
+
+        public void ChangeStatValue(Stats statType, int value)
+        {
+            CharacterStat stat = GetStat(statType);
+
+            if ((stat.Value + value) < 0)
+            {
+                throw new Exception($"You tried to change stat {statType} value to value bellow zero");
+            }
+            
+            stat.ChangeValue((uint)(stat.Value + value));
+            OnStatValueChanged?.Invoke(stat);
+        }
+
+        public CharacterStat[] GetStats()
+        {
+            return this._stats.ToArray();
+        }
     }
 }

@@ -1,5 +1,5 @@
 using CameraManipulator;
-using CharacterPopupPresenter;
+using CharacterPopupPresenter.PresentersFactory;
 using Player;
 using PopUpHelper;
 using UnityEngine;
@@ -9,6 +9,12 @@ namespace Installers
 {
     public class SceneInstaller : MonoInstaller
     {
+        [SerializeField]
+        private CharacterInitInfoSetter _characterInitInfoSetter;
+        
+        [SerializeField]
+        private CharacterInfoSetter _characterInfoSetter;
+        
         [SerializeField]
         private RectTransform _popupCanvas;
         
@@ -22,13 +28,14 @@ namespace Installers
         public override void InstallBindings()
         {
             Container.BindInterfacesAndSelfTo<CharacterStats>().AsSingle();
+            Container.BindInterfacesAndSelfTo<CharacterStatIncreaser>().AsSingle();
             Container.BindInterfacesAndSelfTo<PlayerLevel>().AsSingle();
             Container.BindInterfacesAndSelfTo<UserInfo>().AsSingle();
-            Container.Bind<CharacterInitInfoSetter>().FromComponentInHierarchy().AsSingle().NonLazy();
-            Container.Bind<CharacterInfoSetter>().FromComponentInHierarchy().AsSingle().NonLazy();
-            Container.BindInterfacesAndSelfTo<PopupPresenterFactory>().AsSingle();
-            Container.BindInterfacesAndSelfTo<CharacterStatIncreaser>().AsSingle();
-            
+            // Container.Bind<CharacterInitInfoSetter>().FromComponentInHierarchy().AsSingle();
+            // Container.Bind<CharacterInfoSetter>().FromComponentInHierarchy().AsSingle();
+            Container.Bind<CharacterInitInfoSetter>().FromInstance(_characterInitInfoSetter).AsSingle().NonLazy();
+            Container.Bind<CharacterInfoSetter>().FromInstance(_characterInfoSetter).AsSingle().NonLazy();
+            Container.BindInterfacesAndSelfTo<CharacterPopupPresentersFactory>().AsSingle();
             Container.Bind<RectTransform>().FromInstance(_popupCanvas).AsSingle();
 
             BindCamera();

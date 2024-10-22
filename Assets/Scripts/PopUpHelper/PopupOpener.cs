@@ -1,8 +1,10 @@
 using System;
+using System.Collections.Generic;
 using CameraManipulator;
-using CharacterPopupPresenter;
-using PopupView;
+using CharacterPopupPresenter.IPresenters;
+using CharacterPopupPresenter.PresentersFactory;
 using Sirenix.OdinInspector;
+using UI.CharacterPopupView;
 using UnityEngine;
 using Zenject;
 
@@ -16,70 +18,88 @@ namespace PopUpHelper
         private CharacterPopupView _popup;
         
         private DiContainer _container;
-        private IPopupPresenterFactory _presenterFactory;
         private RectTransform _popupCanvas;
-
         private ICameraToggler _cameraToggler;
-        
+
+        private ICharacterPresenterFactory _presenterFactory;
+        private IViews[] _views;
 
         [Inject]
         public void Constructor(DiContainer container,
-            IPopupPresenterFactory factory, 
             RectTransform popupCanvas,
-            ICameraToggler cameraToggler
+            ICameraToggler cameraToggler,
+            ICharacterPresenterFactory presenterFactory
             )
         {
             _container = container;
-            _presenterFactory = factory;
             _popupCanvas = popupCanvas;
             _cameraToggler = cameraToggler;
-        }
-        
-        [Button(ButtonSizes.Large)]
-        private void OpenPopup()
-        {
-            var args = _presenterFactory.CreatePresenter();
-            Open(args);
+            _presenterFactory = presenterFactory;
         }
 
-        private void Open(ICharacterPopupPresenter args)
+        [Button(ButtonSizes.Large)]
+        private void OpenPopup()
         {
             if (_popup is null)
             {
                 _popup = _container.InstantiatePrefabForComponent<CharacterPopupView>(_characterPopupPrefab, _popupCanvas);
+                _views = _popup.GetComponents<IViews>();
             }
             else
             {
                 _popup.gameObject.SetActive(true);
             }
-            
-            
 
-            if (args is IEventsubscriberPresenter presenter)
-                SubscribePresenterToPopupEvents(presenter, _popup);
-            
+            _popup.Open();
+            _popup.OnClose += ClosePopupHandler;
+
             HandleSwitchCameraLogic();
-            
-            _popup.Open(args);
+            ShowAllView();
         }
 
-        private void SubscribePresenterToPopupEvents(IEventsubscriberPresenter presenter, IPopupEventEmitter popup)
+        private void ShowAllView()
         {
-            presenter.SubscribeToViewEvents(popup);
+            var presenters = CreatePresenters();
+            
+            foreach (var view in _views)
+            {
+                view.OnShow(presenters);
+            }
+        }
+
+        private void ClosePopupHandler()
+        {
+            foreach (var view in _views)
+            {
+                if (view is IViewHideable hideableView)
+                    hideableView.OnHide();
+            }
+            
+            ToGameCameraSwitchHandler();
+            _popup.OnClose -= ClosePopupHandler;
         }
 
         private void HandleSwitchCameraLogic()
         {
             _cameraToggler.TurnOnUICamera();
-            
-            _popup.OnClose += ToGameCameraSwitchHandler;
         }
 
         private void ToGameCameraSwitchHandler()
         {
             _cameraToggler.TurnOnGameCamera();
+        }
+        
+        private Dictionary<Type, IPresenter> CreatePresenters()
+        {
+            Dictionary<Type, IPresenter> presenters = new();
             
-            _popup.OnClose -= ToGameCameraSwitchHandler;
+            foreach (var presenterType in _presenterFactory.СanCreatePresenters)
+            {
+                var presenter = _presenterFactory.CreatePresenter(presenterType);
+                presenters.TryAdd(presenterType, presenter);
+            }
+
+            return presenters;
         }
     }
 }
